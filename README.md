@@ -1,86 +1,79 @@
-# Todo App
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-This application will help the user to track his/her daiy task.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-## Getting Started
+## About Laravel
 
-Open cmd & use command <strong>cd folder/to/clone-into/</strong> ```(You can use any directory you want)```
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Next Command
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-<strong>git clone</strong> https://github.com/anikrahman0/Todo-App.git
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Or
+## Learning Laravel
 
-You can download the project directly using the link: https://github.com/anikrahman0/Todo-App.git
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### Prerequisites
+## Laravel Sponsors
 
-You must have installed <strong>PHP 7.4.2</strong> or latest and <strong>Composer dependency manager</strong> in your system to run the project.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Installing
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+- [Hyper Host](https://hyper.host)
+- [Appoly](https://www.appoly.co.uk)
+- [OP.GG](https://op.gg)
+- [云软科技](http://www.yunruan.ltd/)
 
-Installing <strong>XAMPP</strong> or other local server will give you the latest version of <strong>PHP</strong>.
+## Contributing
 
-Link for downloading <strong>XAMPP</strong>: https://www.apachefriends.org/download.html
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-Link for downloading <strong>Composer</strong>: https://getcomposer.org/download/
+## Code of Conduct
 
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
+## Security Vulnerabilities
 
-## Deployment
-
-[Watch full environment setup for the project](https://www.youtube.com/watch?v=H3uRXvwXz1o)
-
-There are two ways to run or serve the project on local server.
-
-* **Method #1**
-
-    * Using cmd goto the project folder using below command
-
-       <strong>E:\Project> cd todo</strong>
-
-    * Then run command php artisan serve
-
-       <strong>E:\Project\todo> php artisan serve</strong>
-       
-    It will show message like: Laravel development server started: http://127.0.0.1:8000   
-    
-    * Create <strong>database todolist</strong>
-    
-    * Run command <strong>php artisan migrate</strong>  to migrate tables to the database
-    
-       <strong>E:\Project\todo> php artisan migrate</strong>
-
-    
-
-* **Method #2** 
-    
-    * After downloading or getting the project files copy all the files and paste is in <strong>C:\xampp\htdocs</strong> 
-    
-    * Then go to project folder <strong> C:\xampp\htdocs\todo </strong> and go to the  public folder <strong> C:\xampp\htdocs\todo\public </strong> 
-    
-    * Copy the <strong>index.php</strong> and <strong>.htaccess</strong> file and paste it to the project folder <strong> C:\xampp\htdocs\todo </strong>
-    
-    * Open XAMPP control and run services <strong>apache</strong> and <strong>mysql</strong> and on browser <strong>localhost/todo</strong> will serve the project
-    
-    * If bootstrap or any styling resources failed to load then [See Video](https://www.youtube.com/watch?v=U4PqNQHWIgw) to solve the problem.
-    
-    
- 
-## Built With
-
-* [Laravel](https://laravel.com/docs/7.x/installation) - The Laravel web framework used
-* [Composer](https://getcomposer.org/) - Dependency Management
-
-## Author
-
-* **Md. Anik Rahman** - Initial work : https://github.com/anikrahman0
-
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-This project is licensed under the MIT License.
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
